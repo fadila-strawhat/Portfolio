@@ -628,6 +628,22 @@ button:focus-visible {
     margin-bottom: 1rem;
 }
 
+#projects .skill-card {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects .project-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#projects .project-card-body .text-center {
+    margin-top: auto !important;
+    padding-top: 1.5rem;
+}
+
 .skill-card hr {
     width: 4rem;
     border: none;
@@ -667,6 +683,23 @@ button:focus-visible {
     min-height: 44px;
     align-items: center;
     justify-content: center;
+}
+
+.project-card-body .view-all-link {
+    padding: 0.65rem 1.25rem;
+    border: 1px solid #7AC943;
+    border-radius: 0.5rem;
+    background: #7AC943;
+    color: #050805;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card-body .view-all-link:hover {
+    background: transparent;
+    color: #A6F05A;
+    transform: translateY(-2px);
 }
 
 @media (max-width: 767.98px) {
